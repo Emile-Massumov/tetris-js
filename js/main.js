@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('.grid')
     let squares = Array.from(document.querySelectorAll('.grid div'))
-    const ScoreDisplay = document.querySelector('#score')
-    const StartBtn = document.querySelector('#start-button')
+    const scoreDisplay = document.querySelector('#score')
+    const startBtn = document.querySelector('#start-button')
     const width = 10
     let nextRandom = 0
 
@@ -143,10 +143,10 @@ let displayIndex = 0
 
 // the Tetrominos without rotations
 const upNextTetrominoes = [
-  [1, displayWidth+1, displayWidth*2+1, 2] //lTetromino
-  [0, displayWidth, displayWidth+1, displayWidth*2+1] //ZTetromino
-  [1, displayWidth, displayWidth+1, displayWidth+2] //tTetromino
-  [0, 1, displayWidth, displayWidth+1] //oTetromino
+  [1, displayWidth+1, displayWidth*2+1, 2], //lTetromino
+  [0, displayWidth, displayWidth+1, displayWidth*2+1], //ZTetromino
+  [1, displayWidth, displayWidth+1, displayWidth+2],//tTetromino
+  [0, 1, displayWidth, displayWidth+1], //oTetromino
   [1, displayWidth+1, displayWidth*2+1, displayWidth*3+1] //iTetromino
 ]
 

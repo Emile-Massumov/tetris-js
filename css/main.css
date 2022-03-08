@@ -22,7 +22,7 @@
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: aqua;
+  background-color: yellow;
 }
 .mini-grid div {
   height: 20px;
