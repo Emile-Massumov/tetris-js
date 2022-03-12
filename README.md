@@ -1,1 +1,2 @@
-# tetris-js
+# tetris-js de Ania Kubow
+kubowania
